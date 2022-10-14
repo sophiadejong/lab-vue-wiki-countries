@@ -7,8 +7,8 @@
     <div class="right">
       <CountryDetails></CountryDetails>
     </div>
+    <router-view />
    </div>
-   <router-view />
 </template>
 
 <script>

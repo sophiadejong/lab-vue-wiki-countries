@@ -1,8 +1,8 @@
 <template>
-  <div v-if="home">
+  <!-- <div v-if="home">
     <HomeView></HomeView>
-  </div>
-  <div v-else>
+  </div> -->
+  <div>
     <div class="containerData">
       <div><img :src="countriesListDetail[0].countryImageURL" />
       <h1>{{ countriesListDetail[0].countryName }}</h1>
